@@ -30,5 +30,7 @@ The `echo: false` option disables the printing of code (only output is displayed
 ## ISLR: Chapter 2
 
 ```{r}
-print('hello')
+# reading in the data
+advertising = read.csv("advertising.csv")
+view(advertising)
 ```
